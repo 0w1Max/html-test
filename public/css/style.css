@@ -1,0 +1,31 @@
+@import url(/public/css/fonts.css);
+
+:root {
+  --bg-color: #1E1E1E;
+}
+
+body {
+  font-family: 'Geometria Regular';
+  background-color: var(--bg-color);
+}
+
+.header__nav--list {
+  display: flex;
+}
+
+.header__nav > .header__nav--list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav > .header__nav--list > .header__nav--link:not(:last-child) {
+  margin-right: 32px;
+}
+
+.header__nav > .header__nav--list > .header__nav--link > a {
+  font-family: 'Geometria Regular';
+  font-size: 24px;
+  color: #FFF;
+  text-decoration: none;
+}
