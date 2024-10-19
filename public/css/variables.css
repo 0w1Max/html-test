@@ -1,8 +1,9 @@
 :root {
   --bg-color: #1E1E1E;
+  --font-color: #fff;
   --square-color: #888;
   --elilipse-color: #FB6542;
   --rectangle-color: #fff;
   --burger-menu-color: #fff;
-  --font-color: #fff;
+  --social-links-color: #fff;
 }
