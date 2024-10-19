@@ -1,8 +1,5 @@
 @import url('/public/css/fonts.css');
-
-:root {
-  --bg-color: #1E1E1E;
-}
+@import url('/public/css/variables.css');
 
 body {
   font-family: 'Geometria Regular';
@@ -10,18 +7,20 @@ body {
 }
 
 .header {
+  position: relative;
+  z-index: 999;
   display: grid;
   grid-template-columns: 14% 30% 28% 28%;
   grid-template-rows: repeat(3, 1fr);
   align-items: center;
-  height: 188px;
+  height: 68px;
 }
 
 .header__rectangle {
   width: 70%;
   height: 42px;
   margin-left: 14px;
-  background: url('/public/img/rectangle.svg') transparent repeat;
+  background: url('/public/img/square.svg') transparent repeat;
 }
 
 .header__nav {
@@ -45,7 +44,7 @@ body {
 .header__nav > .header__nav--list > .header__nav--link > a {
   font-family: 'Geometria Regular';
   font-size: 24px;
-  color: #FFF;
+  color: var(--font-color);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -63,18 +62,18 @@ body {
   grid-row: span 3;
   width: 423px;
   height: 557px;
-  margin-left: 115px;
+  margin-left: 110px;
   background: url('/public/img/ellipse.svg') transparent no-repeat;
 }
 
 .header__right-2--menu {
   position: absolute;
   top: 16%;
-  right: 25%;
+  right: 24%;
   display: block;
   width: 10px;
   height: 10px;
-  background-color: #fff;
+  background-color: var(--burger-menu-color);
   border-radius: 50%;
 }
 
@@ -84,7 +83,7 @@ body {
   display: block;
   width: 10px;
   height: 10px;
-  background-color: #fff;
+  background-color: var(--burger-menu-color);
   border-radius: 50%;
 }
 
@@ -94,4 +93,68 @@ body {
 
 .header__right-2--menu::after {
   margin-left: -20px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 42% 58%;
+}
+
+.main__clock {
+  position: relative;
+  width: 950px;
+  height: 950px;
+  margin-left: 110px;
+  background: url(/public/img/clock.svg) transparent no-repeat;
+}
+
+.main__clock::before {
+  content: '';
+  top: 27%;
+  left: 22px;
+  position: absolute;
+  width: 54px;
+  height: 53px;
+  background: url(/public/img/rectangle.svg) transparent no-repeat;
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 386px;
+  margin-left: 16px;
+}
+
+.main__text > .main__text--title, .main__text > .main__text--description {
+  z-index: 999;
+  margin: 0;
+  color: var(--font-color);
+}
+
+.main__text > .main__text--title  {
+  font-family: 'Gotham Pro Black';
+  font-size: 200px;
+  line-height: 107%;
+  letter-spacing: 4px;
+}
+
+.main__text > .main__text--description  {
+  width: 76%;
+  margin-left: 14px;
+  font-family: 'Geometria Medium';
+  font-size: 48px;
+  line-height: 132%;
+  letter-spacing: 1px;
+}
+
+.main__text > .main__text--title::before {
+  content: '';
+  top: 71%;
+  right: 332px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url(/public/img/rectangle.svg) transparent no-repeat;
+  background-size: cover;
+  transform: rotate(30deg);
 }
