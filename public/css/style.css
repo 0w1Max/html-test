@@ -1,5 +1,6 @@
 @import url('/public/css/fonts.css');
 @import url('/public/css/variables.css');
+@import url('/public/css/animations.css');
 
 body {
   font-family: 'Geometria Regular';
@@ -49,7 +50,7 @@ body {
   text-transform: uppercase;
 }
 
-.header__right {
+.header__waves {
   grid-row: span 2;
   width: 566px;
   height: 372px;
@@ -57,7 +58,7 @@ body {
   background: url('/public/img/bg-1.svg') transparent no-repeat;
 }
 
-.header__right-2 {
+.header__right-menu {
   position: relative;
   grid-row: span 3;
   width: 423px;
@@ -66,7 +67,7 @@ body {
   background: url('/public/img/ellipse.svg') transparent no-repeat;
 }
 
-.header__right-2--menu {
+.header__right-menu--menu {
   position: absolute;
   top: 16%;
   right: 24%;
@@ -77,7 +78,7 @@ body {
   border-radius: 50%;
 }
 
-.header__right-2--menu::before, .header__right-2--menu::after {
+.header__right-menu--menu::before, .header__right-menu--menu::after {
   content: '';
   position: absolute;
   display: block;
@@ -87,12 +88,16 @@ body {
   border-radius: 50%;
 }
 
-.header__right-2--menu::before {
+.header__right-menu--menu::before {
   margin-left: 20px;
 }
 
-.header__right-2--menu::after {
+.header__right-menu--menu::after {
   margin-left: -20px;
+}
+
+.header__right-menu--menu:hover {
+  animation: 2s rotate ease-in-out;
 }
 
 .main {
@@ -225,18 +230,6 @@ body {
   border-radius: 50%;
 }
 
-.footer__social-links--link > .facebook {
-  background: url('/public/img/facebook.svg') transparent no-repeat;
-}
-
-.footer__social-links--link > .instagram {
-  background: url('/public/img/instagram.svg') transparent no-repeat;
-}
-
-.footer__social-links--link > .linkedin {
-  background: url('/public/img/linkedin.svg') transparent no-repeat;
-}
-
-.footer__social-links--link > .telegram {
-  background: url('/public/img/telegram.svg') transparent no-repeat;
+.footer__social-links--link > a:hover > svg > path {
+  animation: 1s changeColor ease-in-out forwards;
 }
