@@ -9,3 +9,10 @@
     fill: var(--orange-color);
   }
 }
+
+@keyframes changeLink {
+  100% {
+    color: var(--orange-color);
+    text-decoration: underline;
+  }
+}

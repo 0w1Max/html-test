@@ -50,6 +50,11 @@ body {
   text-transform: uppercase;
 }
 
+.header__nav > .header__nav--list > .header__nav--link > a:hover,
+.header__nav > .header__nav--list > .header__nav--link > a:active {
+  animation: 1s changeLink ease-in-out forwards;
+}
+
 .header__waves {
   grid-row: span 2;
   width: 566px;
