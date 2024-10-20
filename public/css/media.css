@@ -331,9 +331,9 @@
 
 @media (min-width: 1280px) and (max-width: 1553px) {
   .header__right-menu {
-    width: 75%;
+    width: 65%;
     margin-left: 130px;
-    background-size: 435px 435px;
+    background-size: 285px 285px;
   }
 
   .main__clock {
@@ -369,9 +369,9 @@
 
 @media (min-width: 1554px) and (max-width: 1919px) {
   .header__right-menu {
-    width: 75%;
+    width: 65%;
     margin-left: 130px;
-    background-size: 435px 435px;
+    background-size: 285px 285px;
   }
 
   .main__text {
