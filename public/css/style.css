@@ -1,6 +1,6 @@
-@import url('/public/css/fonts.css');
-@import url('/public/css/variables.css');
-@import url('/public/css/animations.css');
+@import url('css/fonts.css');
+@import url('css/variables.css');
+@import url('css/animations.css');
 
 body {
   font-family: 'Geometria Regular';
@@ -26,7 +26,7 @@ body {
   width: 70%;
   height: 42px;
   margin-left: 14px;
-  background: url('/public/img/square.svg') transparent repeat;
+  background: url('img/square.svg') transparent repeat;
 }
 
 .header__nav {
@@ -66,7 +66,7 @@ body {
   width: 566px;
   height: 372px;
   margin-left: 32px;
-  background: url('/public/img/bg-1.svg') transparent no-repeat;
+  background: url('img/bg-1.svg') transparent no-repeat;
 }
 
 .header__right-menu {
@@ -75,7 +75,7 @@ body {
   width: 423px;
   height: 557px;
   margin-left: 110px;
-  background: url('/public/img/ellipse.svg') transparent no-repeat;
+  background: url('img/ellipse.svg') transparent no-repeat;
 }
 
 .header__right-menu--menu {
@@ -124,7 +124,7 @@ body {
   height: 950px;
   margin-top: -3px;
   margin-left: 110px;
-  background: url(/public/img/clock.svg) transparent no-repeat;
+  background: url('img/clock.svg') transparent no-repeat;
 }
 
 .main__clock::before {
@@ -134,7 +134,7 @@ body {
   position: absolute;
   width: 54px;
   height: 53px;
-  background: url(/public/img/rectangle.svg) transparent no-repeat;
+  background: url('img/rectangle.svg') transparent no-repeat;
 }
 
 .main__text {
@@ -174,7 +174,7 @@ body {
   right: 332px;
   width: 30px;
   height: 30px;
-  background: url(/public/img/rectangle.svg) transparent no-repeat;
+  background: url('img/rectangle.svg') transparent no-repeat;
   background-size: cover;
   transform: rotate(30deg);
 }
@@ -190,7 +190,7 @@ body {
   top: -272px;
   width: 674px;
   height: 337px;
-  background: url(/public/img/ellipse-2.svg) transparent no-repeat;
+  background: url('img/ellipse-2.svg') transparent no-repeat;
 }
 
 .footer__rectangle {
@@ -200,7 +200,7 @@ body {
   width: 80px;
   height: 80px;
   margin-left: -32px;
-  background: url(/public/img/rectangle.svg) transparent no-repeat;
+  background: url('img/rectangle.svg') transparent no-repeat;
   background-size: cover;
   transform: rotate(30deg);
 }
@@ -223,7 +223,7 @@ body {
   width: 19%;
   height: 98px;
   margin-left: 14px;
-  background: url('/public/img/square.svg') transparent repeat;
+  background: url('img/square.svg') transparent repeat;
 }
 
 .footer__social-links > .footer__social-links--list {
