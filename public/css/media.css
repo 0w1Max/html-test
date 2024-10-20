@@ -50,7 +50,7 @@
   .main__clock {
     width: 320px;
     height: 320px;
-    margin-top: -13%;
+    margin-top: 0;
     margin-left: 0;
     background-size: 320px 320px;
   }
@@ -82,15 +82,15 @@
   .footer {
     grid-template-columns: 100%;
     justify-items: center;
-    margin-top: 20px;
+    margin-top: -27%;
   }
 
   .footer__ellipse {
-    top: 0;
-    width: 384px;
+    top: 2px;
+    width: 320px;
     height: 137px;
     margin-left: 26px;
-    background-size: 384px 137px;
+    background-size: 320px 137px;
   }
 
   .footer__rectangle {
@@ -198,7 +198,7 @@
   .footer {
     grid-template-columns: 100%;
     justify-items: center;
-    margin-top: 20px;
+    margin-top: -18%;
   }
 
   .footer__ellipse {
