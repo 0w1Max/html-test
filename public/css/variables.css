@@ -6,4 +6,15 @@
   --rectangle-color: #fff;
   --burger-menu-color: #fff;
   --social-links-color: #fff;
+
+  --font-size-title: 200px;
+  --font-size-description: 48px;
+  --font-size-title-1280: calc(var(--font-size-title) * 0.8);
+  --font-size-description-1280: calc(var(--font-size-description) * 0.8);
+  --font-size-title-1024: calc(var(--font-size-title) * 0.6);
+  --font-size-description-1024: calc(var(--font-size-description) * 0.6);
+  --font-size-title-768: calc(var(--font-size-title) * 0.4);
+  --font-size-description-768: calc(var(--font-size-description) * 0.4);
+  --font-size-title-480: calc(var(--font-size-title) * 0.2);
+  --font-size-description-480: calc(var(--font-size-description) * 0.4);
 }
