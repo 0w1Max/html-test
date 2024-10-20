@@ -16,3 +16,22 @@
     text-decoration: underline;
   }
 }
+
+@keyframes showMenu {
+  100% {
+    z-index: 999;
+    opacity: 1;
+  }
+}
+
+@keyframes closeMenu {
+  100% {
+    z-index: 999;
+    opacity: 1;
+  }
+
+  100% {
+    z-index: 1;
+    opacity: 0;
+  }
+}
