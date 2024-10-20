@@ -82,7 +82,7 @@
   .footer {
     grid-template-columns: 100%;
     justify-items: center;
-    margin-top: -27%;
+    margin-top: -30%;
   }
 
   .footer__ellipse {
