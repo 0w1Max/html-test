@@ -108,8 +108,28 @@ body {
   margin-left: -20px;
 }
 
-.header__right-menu--menu:hover {
+.header__right-menu--menu:hover, .header__right-menu--menu:active {
   animation: 2s rotate ease-in-out;
+}
+
+.burger-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  opacity: 0;
+}
+
+.burger-menu--close {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  font-size: 100px;
+  text-decoration: none;
+  color: var(--font-color);
 }
 
 .main {
