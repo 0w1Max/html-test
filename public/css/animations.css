@@ -1,0 +1,18 @@
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes changeColor {
+  100% {
+    fill: var(--orange-color);
+  }
+}
+
+@keyframes changeLink {
+  100% {
+    color: var(--orange-color);
+    text-decoration: underline;
+  }
+}
